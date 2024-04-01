@@ -12,7 +12,8 @@ exit_button = PySimpleGUI.Button("Exit")
 list_box=PySimpleGUI.Listbox(values=functions.get_todos(),key='todos',enable_events=True,size=[45,10])
 window = PySimpleGUI.Window('ToDo List',
                             layout=[[label],[input_box, add_button],
-                            [list_box , edit_button,complete_button]],
+                            [list_box , edit_button,complete_button],
+                            [exit_button]],
                             font=('helvetica',20))
 
 while True:
