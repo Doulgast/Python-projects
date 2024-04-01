@@ -18,8 +18,6 @@ window = PySimpleGUI.Window('ToDo List',
 
 while True:
     event , values=window.read()
-    print(event)
-    print(values)
     match event:
         case "Add":
           if(values['todo']!=""):
@@ -30,6 +28,7 @@ while True:
             window['todos'].update(values=todos)
             window['todo'].update(value='')
         case "Edit":
+          try:
             todo_to_edit = values['todos'][0]
             new_todo = values['todo'] + "\n"
             todos=functions.get_todos()
@@ -37,16 +36,20 @@ while True:
             todos[index]=new_todo
             functions.write_todos(todos)
             window['todos'].update(values=todos)
+          except IndexError:
+              PySimpleGUI.popup("Please select an item first")
         case 'todos':
             window['todo'].update(value=values['todos'][0])
         case 'Complete':
-
+          try:
             todo_to_complete=values['todos'][0]
             todos = functions.get_todos()
             todos.remove(todo_to_complete)
             functions.write_todos(todos)
             window['todos'].update(values=todos)
             window['todo'].update(value='')
+          except IndexError:
+              PySimpleGUI.popup("Please select an item first")
         case 'Exit':
             break;
 
