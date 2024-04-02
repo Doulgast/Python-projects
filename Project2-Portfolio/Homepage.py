@@ -2,11 +2,10 @@ import  streamlit as st
 import pandas
 st.set_page_config(layout="wide")
 # Define column widths
-col1_width = 1
-col2_width = 3
+
 
 # Create columns with specified widths
-col1, col2 = st.columns([col1_width, col2_width])
+col1,  mid_col,col2 = st.columns([1.5,0.5,2])
 
 with col1:
     st.image("images/doulgas.jpg",width=300)
@@ -35,21 +34,3 @@ with col2:
     st.write(content3)
 
 
-st.title("Python projects")
-
-col3,empty_col,col4=st.columns([2,0.5,2])
-df = pandas.read_csv("data.csv",sep=";")
-
-with col3:
-    for index ,row in df[:10].iterrows():
-        st.header(row["title"])
-        st.write(row["description"])
-        st.image("images/"+row["image"])
-        st.write("[Source Code](https://github.com/Doulgast/Python-projects)")
-
-with col4:
-    for index,row in df[10:].iterrows():
-        st.header(row["title"])
-        st.write(row["description"])
-        st.image("images/"+row["image"])
-        st.write("[Source Code](https://github.com/Doulgast/Python-projects)")
