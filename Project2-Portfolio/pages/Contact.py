@@ -10,10 +10,14 @@ with col2:
 
 with st.form(key="email_form"):
     user_email = st.text_input("Your email address")
+    # Define options for the dropdown
+    options = ['Jobs', 'Project proposals', 'Other']
+
+    # Add the dropdown to the Streamlit app
+    selected_option = st.selectbox('Select an option:', options)
     raw_message = st.text_area("Your message")
     message = f"""\
-Subject:  Website Contact - New email from {user_email}
-
+Subject: {selected_option} - Website Contact
 Email sent from: {user_email}
 Message: {raw_message}
             

@@ -9,6 +9,10 @@ col1,  mid_col,col2 = st.columns([1.5,0.5,2])
 
 with col1:
     st.image("images/doulgas.jpg",width=300)
+    st.info("Languages: \n"
+            "\nGreek\n"
+            "\nEnglish\n"
+            "\nRussian")
 with col2:
     st.title("Theodoros Doulgarides")
     st.header("A little about myself.")
@@ -28,8 +32,8 @@ with col2:
 •	Github: https://github.com/Doulgast\n
 """
     st.info(content2)
-    content3 = """ Below you can find some projects that i have worked on a,certificates and areas of research. \n
-    Feel free to contact me.
+    content3 = """ This is my website. Here you can find all my information , my certificates and my projects.
+    Feel free to contact me. 
     """
     st.write(content3)
 

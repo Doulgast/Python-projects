@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4298e1a-275f-4697-b1d9-56a737330598" name="Changes" comment="" />
+    <list default="true" id="e4298e1a-275f-4697-b1d9-56a737330598" name="Changes" comment="Start up of blood donation app">
+      <change afterPath="$PROJECT_DIR$/../Project2-Portfolio/Cyber security.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project2-Portfolio/certificates.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project2-Portfolio/domainspecs.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project2-Portfolio/pages/Certificates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project2-Portfolio/pages/Skills.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project2-Portfolio/programminglanguages.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project2-Portfolio/softskills.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2-Portfolio/Homepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Project2-Portfolio/Homepage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2-Portfolio/pages/Contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Project2-Portfolio/pages/Contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/doulg/Desktop/CS/Courses/BloodDonationsApp/BloodDonApp",
+    "last_opened_file_path": "C:/Users/doulg/Desktop/CS/Courses/Python/Python projects",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -82,7 +93,10 @@
       <option name="presentableId" value="Default" />
       <updated>1712167097113</updated>
       <workItem from="1712167099057" duration="5582000" />
-      <workItem from="1712175030521" duration="1049000" />
+      <workItem from="1712175030521" duration="2674000" />
+      <workItem from="1712258032665" duration="5435000" />
+      <workItem from="1712332804027" duration="1696000" />
+      <workItem from="1712432797056" duration="731000" />
     </task>
     <servers />
   </component>
@@ -92,7 +106,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pythonProject$SignUpScreen.coverage" NAME="SignUpScreen Coverage Results" MODIFIED="1712167636271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../BloodDonationsApp/BloodDonApp/Screens" />
     <SUITE FILE_PATH="coverage/pythonProject$LoginScreen.coverage" NAME="LoginScreen Coverage Results" MODIFIED="1712167655002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../BloodDonationsApp/BloodDonApp/Screens" />
-    <SUITE FILE_PATH="coverage/pythonProject$App.coverage" NAME="App Coverage Results" MODIFIED="1712175763319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\doulg\Desktop\CS\Courses\BloodDonationsApp\BloodDonApp" />
+    <SUITE FILE_PATH="coverage/pythonProject$App.coverage" NAME="App Coverage Results" MODIFIED="1712301720274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\doulg\Desktop\CS\Courses\BloodDonationsApp\BloodDonApp" />
     <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1712168029303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../BloodDonationsApp/BloodDonApp/Screens" />
     <SUITE FILE_PATH="coverage/pythonProject$Homepage.coverage" NAME="Homepage Coverage Results" MODIFIED="1712167390109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../BloodDonationsApp/BloodDonApp" />
   </component>
