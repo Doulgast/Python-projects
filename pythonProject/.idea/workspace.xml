@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4298e1a-275f-4697-b1d9-56a737330598" name="Changes" comment="Start up of blood donation app">
-      <change afterPath="$PROJECT_DIR$/../Project2-Portfolio/Cyber security.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project2-Portfolio/certificates.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project2-Portfolio/domainspecs.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project2-Portfolio/pages/Certificates.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project2-Portfolio/pages/Skills.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project2-Portfolio/programminglanguages.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project2-Portfolio/softskills.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project2-Portfolio/Homepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Project2-Portfolio/Homepage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project2-Portfolio/pages/Contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Project2-Portfolio/pages/Contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e4298e1a-275f-4697-b1d9-56a737330598" name="Changes" comment="Start up of blood donation app" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
