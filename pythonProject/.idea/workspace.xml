@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4298e1a-275f-4697-b1d9-56a737330598" name="Changes" comment="Start up of blood donation app">
-      <change afterPath="$PROJECT_DIR$/../Project5-DailyNewsDigest/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project5-DailyNewsDigest/send_email.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5-DailyNewsDigest/readMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
